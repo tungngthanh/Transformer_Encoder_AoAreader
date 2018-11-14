@@ -33,5 +33,5 @@ model was proposed by Cui et al. ([[https://arxiv.org/pdf/1607.04423.pdf][paper]
    #+BEGIN_SRC bash
    python test.py -testdata data/cnn/test.txt.pt -dict data/cnn/dict.pt -out result.txt -model model_cnn/xx_checkpoint_epochxx.pt
    #+END_SRC
-* License
-[[file:LICENSE][MIT License]]
+
+* If you run the jupyter notebook, please follow the instruction in Analyze Model.ipynb

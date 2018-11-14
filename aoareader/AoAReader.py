@@ -6,7 +6,7 @@ from torch.nn.utils.rnn import pack_padded_sequence as pack
 import torch.nn.functional as F
 import torch.nn.init as weigth_init
 from aoareader import Constants
-from transformer import Encoder
+from models.transformer import Encoder
 
 def sort_batch(data, seq_len):
     sorted_seq_len, sorted_idx = torch.sort(seq_len, dim=0, descending=True)

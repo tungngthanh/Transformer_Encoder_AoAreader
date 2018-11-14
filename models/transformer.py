@@ -9,8 +9,8 @@ import torch.nn.functional as F
 import numpy as np
 import math
 
-from layers import EncoderLayer, DecoderLayer
-from normalization import LayerNorm
+from models.layers import EncoderLayer, DecoderLayer
+from models.normalization import LayerNorm
 
 def _gen_bias_mask(max_length):
     """

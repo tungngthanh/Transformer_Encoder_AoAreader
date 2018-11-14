@@ -8,8 +8,8 @@ import torch.nn.functional as F
 
 import numpy as np
 
-from sublayers import MultiHeadAttention, PositionwiseFeedForward
-from normalization import LayerNorm
+from models.sublayers import MultiHeadAttention, PositionwiseFeedForward
+from models.normalization import LayerNorm
 
 class EncoderLayer(nn.Module):
     """
